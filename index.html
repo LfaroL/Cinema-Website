@@ -1,0 +1,407 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Cinephile - Movies Website</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/bootstrapValidator.css">
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body data-spy="scroll" data-target=".navbar">  <!-- The Scrollspy plugin is used to automatically update links in a navigation list based on scroll position. -->
+
+        <header>
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                                              
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle Navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>  <!-- .navbar-header -->
+                    
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav nav-justified">              <!-- Inline list --> 
+                            <li><a href="#about">About The App</a></li>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#screenshots">Screenshots</a></li>
+                            <li><a href="#download">Download</a></li>
+                            <li><a href="#support">Support</a></li>        
+                        </ul>
+                    </div>  <!-- .navbar-collapse -->
+                </div>  <!-- .container -->
+
+            </nav>
+        </header>
+         
+        <section id="slider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                
+                <div class="item active">                                                       <!-- Set an "item" as "active" -->
+                    <img class="center-block img-responsive" src="img/slider_1.png">
+                </div> 
+                
+                <div class="item">
+                    <img class="center-block img-responsive" src="img/slider_2.png">
+                </div> 
+                
+                <div class="item">
+                    <img class="center-block img-responsive" src="img/slider_3.png">
+                </div>
+                
+            </div>
+
+            <a class="left carousel-control" href="#slider" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>                          <!-- Check for '>' inside double quotes -->
+            </a>
+            <a class="right carousel-control" href="#slider" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+            
+            <ol class="carousel-indicators">
+                <li data-target="#slider" data-slide-to="0" class="active"></li>     <!-- Set first "item" as "active" -->
+                <li data-target="#slider" data-slide-to="1"></li>     
+                <li data-target="#slider" data-slide-to="2"></li>        
+            </ol>
+        </section>
+        
+        <section id="about"  class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="blue-circle animation1">
+                            <div>
+                                <i class="fa fa-facebook"></i>
+                                <i class="fa fa-twitter"></i>
+                                <i class="fa fa-google-plus"></i>
+                            </div>
+                        </div>
+                        <h3 class="text-uppercase text-center">Facebook &amp; Twitter</h3>
+                        <p class="text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="blue-circle animation2">
+                            <div>
+                                <i class="fa fa-check"></i>
+                            </div>
+                        </div>
+                        <h3 class="text-uppercase text-center">Online Support</h3>
+                        <p class="text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="blue-circle animation3">
+                            <div>
+                                <i class="fa fa-apple"></i>
+                                <i class="fa fa-android"></i>
+                            </div>               
+                        </div>
+                        <h3 class="text-uppercase text-center">iOS &amp; Android</h3>
+                        <p class="text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    </div>
+                </div>  <!--.row-->
+            </div>      <!--.container-->
+        </section>      <!--#about-->
+        
+        <section id="features" class="features">
+            <h2 class="text-center text-uppercase">Features</h2>
+            
+            <div class="container">
+                <div class="row">
+                    <div class="left-features col-sm-4">
+                        <div class="item-feature row">
+                            <div class="content col-sm-8">
+                                <h4>Facebook &amp; Twitter</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                            </div>                               
+                            <div class="col-sm-4">
+                                <div class="blue-circle animation1">
+                                    <div>
+                                        <i class="fa fa-facebook"></i>
+                                        <i class="fa fa-twitter"></i>
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>   
+                        
+                        <div class="item-feature row">
+                            <div class="content col-sm-8">
+                                <h4>User Points</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                            </div>                               
+                            <div class="col-sm-4">
+                                <div class="blue-circle animation1">
+                                    <div>
+                                        <i class="fa fa-user"></i>
+
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>  
+                        
+                        <div class="item-feature row">
+                            <div class="content col-sm-8">
+                                <h4>Buy Tickers Online</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                            </div>                               
+                            <div class="col-sm-4">
+                                <div class="blue-circle animation1">
+                                    <div>
+                                        <i class="fa fa-ticket"></i>
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>   
+                        
+                        <div class="item-feature row">
+                            <div class="content col-sm-8">
+                                <h4>Watch Movie Trailers</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                            </div>                               
+                            <div class="col-sm-4 ">
+                                <div class="blue-circle animation1">
+                                    <div>
+                                        <i class="fa fa-youtube-play"></i>
+                                    </div>                                     
+                                </div>
+                            </div>
+                        </div>  
+                        
+                        <div class="item-feature row">
+                            <div class="content col-sm-8">
+                                <h4>Check Seat Availability</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                            </div>                               
+                            <div class="col-sm-4">
+                                <div class="blue-circle animation1">
+                                    <div>
+                                        <i class="fa fa-check-circle-o"></i>
+                                    </div>                                     
+                                </div>
+                            </div>
+                        </div> 
+                        
+                    </div>
+
+                    
+                    <div class="features-image col-sm-4">
+                        <img class="center-block img-responsive" src="img/features.png" alt="Features">     <!-- "center-block" to center an image -->
+                    </div>
+                    
+                    <div class="right-features col-sm-4">
+                        <div class="item-feature row">
+                            <div class="content col-sm-8 text-right col-sm-push-4">             <!-- Push col-4 to the left -->
+                                <h4>Pay With Credit Card</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                            </div>                               
+                            <div class="col-sm-4 col-sm-pull-8">                                <!-- Pull col-8 to the right -->
+                                <div class="blue-circle animation2">
+                                    <div>
+                                        <i class="fa fa-credit-card"></i>
+                                    </div>                                    
+                                </div>
+                            </div>
+                        </div>   
+                        
+                        <div class="item-feature row">
+                            <div class="content col-sm-8 text-right col-sm-push-4">
+                                <h4>Rate The Movie</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                            </div>                               
+                            <div class="col-sm-4 col-sm-pull-8">
+                                <div class="blue-circle animation2">
+                                    <div>
+                                        <i class="fa fa-thumbs-up"></i>
+                                    </div>                                      
+                                </div>
+                            </div>
+                        </div>  
+                        
+                        <div class="item-feature row">
+                            <div class="content col-sm-8 text-right col-sm-push-4">
+                                <h4>Reward Points</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                            </div>                               
+                            <div class="col-sm-4 col-sm-pull-8">
+                                <div class="blue-circle animation2">
+                                    <div>
+                                        <i class="fa fa-exchange"></i>
+                                    </div>                                      
+                                </div>
+                            </div>
+                        </div>   
+                        
+                        <div class="item-feature row">
+                            <div class="content col-sm-8 text-right col-sm-push-4">
+                                <h4>Check In Integrated</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                            </div>                               
+                            <div class="col-sm-4 col-sm-pull-8">
+                                <div class="blue-circle animation2">
+                                    <div>
+                                        <i class="fa fa-check-square-o"></i>
+                                    </div>                                     
+                                </div>
+                            </div>
+                        </div>  
+                        
+                        <div class="item-feature row">
+                            <div class="content col-sm-8 text-right col-sm-push-4">
+                                <h4>Access All Promos</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                            </div>                               
+                            <div class="col-sm-4 col-sm-pull-8">
+                                <div class="blue-circle animation2">
+                                    <div>
+                                        <i class="fa fa-tag"></i>
+                                    </div>                                       
+                                </div>
+                            </div>
+                        </div> 
+                                        
+                    </div>                    
+                    
+                </div>  <!--.row-->
+            </div>      <!--.container-->
+        </section>      <!--#features-->
+        
+        <section id="screenshots" class="screenshots">
+            <h2 class="text-center text-uppercase">Screenshots</h2>
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-4">
+                        <a href="#modal" data-toggle="modal" data-image-url="img/modal_tickets.png">
+                            <img class="img-responsive animation1" src="img/modal_tickets.png" alt="Tickets">
+                        </a>
+                    </div>
+                    <div class="col-xs-4">
+                        <a href="#modal" data-toggle="modal" data-image-url="img/modal_trailers.png">
+                            <img class="img-responsive animation2" src="img/modal_trailers.png" alt="Trailers">    <!-- "img-responsive" for automatic resizing images -->
+                        </a>
+                    </div>
+                    <div class="col-xs-4">
+                        <a href="#modal" data-toggle="modal" data-image-url="img/modal_points.png">
+                            <img class="img-responsive animation3" src="img/modal_points.png" alt="Points">
+                        </a>
+                    </div>
+                </div>  <!--.row-->
+            </div>      <!--.container-->
+            
+            <div id="modal" class="modal fade" tabIndex="-1" role="dialog" aria-labelledby="modal" aria-hidden="true">
+                <div class="modal-body">
+                    <img class="img-responsive" src="#">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                </div>
+            </div>
+        </section>      <!--#screenshots-->
+        
+        <section id="parallax" class="parallax">
+            <h2 class="parallax text-center">Also available for iPad</h2>
+        </section>      <!--#parallax-->
+        
+        <section id="download" class="download">
+            <h2 class="text-center text-uppercase">Download</h2>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="content-downloads clearfix">    <!-- clearfix for elements with float attribute -->
+                        <div class="phone">
+                            <img class="img-responsive animation1" src="img/download.png" alt="Download">
+                        </div>  <!--./phone-->
+                        
+                        <div class="download-empty"></div>  <!-- container for .download -->
+                        
+                        <div class="container download">
+                            <div class="row">
+                                
+                                <div class="col-sm-5 col-sm-offset-7">                           <!-- "col-sm-offset-7" -->
+                                    <h2 class="text-center text-uppercase">Choose Your Platform</h2>
+                                    
+                                    <section class="platforms text-center">
+                                        <div class="col-sm-4 col-sm-offset-1 col-xs-10 col-xs-offset-1 animation2">
+                                            <i class="fa fa-apple"></i>
+                                            Download for <b>Apple iOS</b>
+                                        </div>
+                                        <div class="col-sm-4 col-sm-offset-1 col-xs-10 col-xs-offset-1 animation3">
+                                            <i class="fa fa-android"></i>                                            
+                                            Download for <b>Android</b>
+                                        </div>
+                                    </section>
+                                </div>
+                            
+                            </div>  <!--.row-->
+                        </div>      <!--.container-->
+                    </div>                
+                </div>  <!--.row-->
+            </div>      <!--.container-fluid-->
+        </section>      <!--#download-->
+        
+        
+        <section id="support" class="support">
+            <h2 class="text-center text-uppercase">Support</h2>
+            <p class="text-center">Please fill out the inquiry form</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <form id="form" action="ajaxSubmit.php" class="form-horizontal">
+                            <div class="form-group">                                                        <!-- "form-group" to have space between inputs-->
+                                <input class="form-control" type="text" placeholder="Name" name="name" id="name" required>
+                            </div>
+                            
+                            <div class="form-group">  
+                                <input class="form-control" type="email" placeholder="Email" name="email" id="email" required>
+                            </div>
+                            
+                            <div class="form-group">                            
+                                <textarea class="form-control" placeholder="Message" name="message" id="message"></textarea>
+                            </div>
+                            
+                            <input class="btn btn-default" type="submit" value="Send">
+                        </form>
+                    </div>
+                    
+                </div>  <!--.row-->
+            </div>      <!--.container-->
+        </section>      <!--#support-->
+        
+        
+        <footer>
+            <p class="text-center text-uppercase">All Rights Reserved &copy;2015</p>        
+        </footer>
+        
+        
+        
+        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.waypoints.min.js"></script>
+        <script src="js/bootstrapValidator.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
+
+<!--
+colorzilla
+font-awesome
+
+waypoints
+animate
+
+chrome DevTools
+-->
+
