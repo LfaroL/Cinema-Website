@@ -117,6 +117,7 @@ h3:after {
     color: #fff;
     font-size: 1.3em;
     text-shadow: 1px 1px 1px black;
+
 }
 
 .nav > li.active {
@@ -182,8 +183,8 @@ h3:after {
 }
 
 #features .blue-circle {
-    width: 80%;
-    padding-bottom: 80%;
+    width: 90%;
+    padding-bottom: 90%;
 }
 
 .item-feature {
@@ -400,6 +401,21 @@ footer p {
 /* ==========================================================================
    Media Queries
    ========================================================================== */
+@media(max-width: 1200px) {
+    #features .blue-circle,
+    .blue-circle {
+        width: 120%;
+        padding-bottom: 120%;
+    }    
+}
+
+@media(max-width: 992px) {
+    #features .blue-circle,
+    .blue-circle {
+        width: 150%;
+        padding-bottom: 150%;
+    }    
+}
 
 @media(max-width: 767px) {
     .navbar-default .navbar-collapse {
@@ -424,10 +440,16 @@ footer p {
     
     #about .blue-circle,
     .blue-circle {
-        width: 50%;
-        padding-bottom: 50%;
+        width: 30%;
+        padding-bottom: 30%;
     }
     
+    #features .blue-circle,
+    .blue-circle {
+        width: 20%;
+        padding-bottom: 20%;
+    }
+        
     #features h4,
     #features p {
         text-align: center;
@@ -468,18 +490,6 @@ footer p {
         top: 740px;
         z-index: 10;
     }
-}
-
-@media(min-width: 768px) {
-    
-}
-
-@media(min-width: 992px) {
-    
-}
-
-@media(min-width: 1200px) {
-    
 }
 
 @media only screen and (min-width: 35em) {
